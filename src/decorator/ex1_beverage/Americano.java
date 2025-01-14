@@ -1,17 +1,17 @@
-package decorator;
+package decorator.ex1_beverage;
 
 import java.math.BigDecimal;
 
-public class Decaf extends Beverage {
+public class Americano extends Beverage {
     
     @Override
     public String getDescription() {
-        return "Decaffeinated Coffee";
+        return "Americano";
     }
     
     @Override
     public BigDecimal cost() {
-        return new BigDecimal("4500");
+        return new BigDecimal("4000");
     }
     
 }

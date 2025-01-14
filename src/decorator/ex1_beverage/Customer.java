@@ -1,8 +1,8 @@
-package decorator;
+package decorator.ex1_beverage;
 
-import decorator.condiment.Ice;
-import decorator.condiment.IceCream;
-import decorator.condiment.Whip;
+import decorator.ex1_beverage.condiment.Ice;
+import decorator.ex1_beverage.condiment.IceCream;
+import decorator.ex1_beverage.condiment.Whip;
 
 public class Customer {
     

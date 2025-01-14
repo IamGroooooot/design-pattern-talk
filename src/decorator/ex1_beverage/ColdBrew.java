@@ -1,4 +1,4 @@
-package decorator;
+package decorator.ex1_beverage;
 
 import java.math.BigDecimal;
 

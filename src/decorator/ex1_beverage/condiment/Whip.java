@@ -1,18 +1,18 @@
-package decorator.condiment;
+package decorator.ex1_beverage.condiment;
 
-import decorator.Beverage;
+import decorator.ex1_beverage.Beverage;
 
 import java.math.BigDecimal;
 
-public class VanillaSyrup extends CondimentDecorator {
+public class Whip extends CondimentDecorator {
     
-    public VanillaSyrup(Beverage beverage) {
+    public Whip(Beverage beverage) {
         super(beverage);
     }
     
     @Override
     public String getDescription() {
-        return this.beverage.getDescription() + " + Vanilla Syrup";
+        return this.beverage.getDescription() + " + Whip";
     }
     
     @Override

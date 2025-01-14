@@ -1,12 +1,12 @@
-package decorator;
+package decorator.ex1_beverage;
 
 import java.math.BigDecimal;
 
-public class Hazelnut extends Beverage {
+public class Decaf extends Beverage {
     
     @Override
     public String getDescription() {
-        return "Hazelnut";
+        return "Decaffeinated Coffee";
     }
     
     @Override
