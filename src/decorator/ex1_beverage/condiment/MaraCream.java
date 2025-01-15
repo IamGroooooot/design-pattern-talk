@@ -4,20 +4,20 @@ import decorator.ex1_beverage.Beverage;
 
 import java.math.BigDecimal;
 
-public class Ice extends CondimentDecorator {
+public class MaraCream extends CondimentDecorator {
     
-    public Ice(Beverage beverage) {
+    public MaraCream(Beverage beverage) {
         super(beverage);
     }
     
     @Override
     public String getDescription() {
-        return super.getDescription() + " + Ice";
+        return super.beverage.getDescription() + " + Mara";
     }
     
     @Override
     public BigDecimal cost() {
-        return super.cost().add(new BigDecimal("500"));
+        return super.beverage.cost().add(new BigDecimal(1000));
     }
     
 }
